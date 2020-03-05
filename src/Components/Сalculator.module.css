@@ -1,0 +1,82 @@
+.calculBlock{
+    width: 350px;
+    height: 550px;
+    background: #282c34;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+}
+.hist{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background: #282c34;
+    overflow: auto;
+    top:40px
+}
+.histText{
+    color: white;
+    padding: 5px 25px;
+    margin: 0;
+}
+.close{
+    position: fixed;
+    color: white;
+    padding: 5px 25px;
+    background: #282c34;
+    width: 300px;
+    height: 30px;
+    text-align: right;
+}
+.histText:hover{
+    background: orange;
+    cursor: pointer;
+}
+.close:hover{
+    cursor: pointer;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.buttonRed{
+    color: #fff;
+    border: 1px solid red;
+}
+.buttonBlue{
+    color: #fff;
+    border: 1px solid #008fff;
+}
+.buttonOrange{color: #fff;
+    border: 1px solid orange;}
+.buttonGreen{color: #fff;
+    border: 1px solid green;}
+.buttonOrangeColor{color:orange}
+.button:hover{cursor: pointer}
+.inputCalc,.result{
+    width: 280px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: #282c34;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    margin: 5px 0;
+}
+.inputCalc{margin-top:20px}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
